@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~mdb-ui-kit/css/mdb.min.css';
+.background {
+  background-image: url("/assets/background.png");
+    /* Set a specific height */
+  min-height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Container {
+    background-color: rgba(240,217,199, 0.8);
+    margin: 2.5%;
+    padding: 1% 2% 1% 2%;
+    border-radius: 10px;
+}
+
+* {
+  font-family: 'Cabin', sans-serif;
+  font-size: medium;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Cabin', sans-serif;
+  color: #ae4e38;
+}
+
+p {
+  font-family: 'Cabin', sans-serif;
+  color: #210503;
+}
+
+.Button{
+  background-color: #ae4e38;
+  width: 100%;
+  border-radius: 4px;
+  border: none;
+  padding: 16px 16px;
+  color: #F0D9c7;
+}
+
+.Button:hover{
+  background-color: #DB8065;
+}

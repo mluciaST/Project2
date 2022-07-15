@@ -1,0 +1,15 @@
+.Button{
+    background-color: #ae4e38;
+    border-radius: none;
+    border: none;
+    color: #F0D9c7;
+}
+
+.Plan p {
+    font-family: 'Cabin', sans-serif;
+    color: #210503;
+}
+
+.Plan h6{
+    font-weight: bold;
+}

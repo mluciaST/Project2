@@ -1,0 +1,22 @@
+.Button{
+    background-color: #ae4e38;
+    border-radius: none;
+    border: none;
+    color: #F0D9c7;
+}
+
+.Select{
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+.Button2{
+    background-color: #ae4e38;
+    border: none;
+    padding: 1%;
+    color: #F0D9c7;
+    border-radius: 4px;
+    width: 100%;
+}

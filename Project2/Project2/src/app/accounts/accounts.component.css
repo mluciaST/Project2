@@ -1,0 +1,19 @@
+.Button-List{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.Button{
+    background-color: #ae4e38;
+    width: 75%;
+    border-radius: none;
+    border: none;
+    padding: 16px 16px;
+    color: #F0D9c7;
+}
+
+.Button:hover{
+    background-color: #DB8065;
+}

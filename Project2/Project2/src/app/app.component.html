@@ -1,5 +1,19 @@
-<div *ngIf="isLoggedIn()">
-    <div><h1>Luci-Lor Communications</h1></div>
-    <h3>Welcome {{userInfo?.info?.name}}! <button class="btn btn-primary btn-danger" (click)="signOut()">Logout</button></h3>
-    <div></div>
+<!-- Navigation --------------------------------------------------------------------------------------------------------------------->
+
+<div class="Navigation">
+    <ul>
+        <li><img src="../assets/logo.svg" alt="luci-lor app"></li>
+        <li><h3>Luci-Lor Communications</h3></li>
+        <li style="float:right"><button (click)="signOut()">Logout</button></li>
+        <li style="float:right"><a [routerLink]="['/accounts']">My Account</a></li>
+        <li style="float:right"><a [routerLink]="['/devices']">Devices</a></li>
+        <li style="float:right"><a [routerLink]="['/phone-plans']">Phone Plans</a></li>
+        <li style="float:right"><a [routerLink]="['/']">Home</a></li>
+    </ul>
+<div class="background">
+    <router-outlet></router-outlet>
+    <app-footer></app-footer>
+</div>
+
+
 </div>

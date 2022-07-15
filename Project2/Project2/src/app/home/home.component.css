@@ -1,0 +1,24 @@
+.logo {
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25vmax;
+    transition: all 2s ease;
+}
+
+.logo:hover{
+  transform: rotateY(360deg);
+}
+
+.vert{
+  vertical-align: middle;
+  text-align: left;
+}
+
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

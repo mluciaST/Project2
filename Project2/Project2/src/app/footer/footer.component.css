@@ -1,0 +1,18 @@
+.Footer{
+    background-color: #ae4e38;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.Content{
+    padding: 2%;
+}
+
+.Content h6{
+    color: #d79330;
+}
+
+.Content p{
+    color: #F0d9c7;
+}

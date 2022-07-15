@@ -1,0 +1,98 @@
+<h1> Devices </h1>
+<div class="Container">
+    <div class="row">
+         <!--View Devices-->
+         <!--Use *ngFor to generate the table-->
+        <div class="col-6">
+            <h3>Current Devices</h3>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                      <th scope="col">Plan Number</th>
+                      <th scope="col">Phone Number</th>
+                      <th scope="col">Nickname</th>
+                      <th scope="col">Phone Model</th>
+                      <th scope="col"></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <!-- Consider using table depemdency?-->
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>000-000-0000</td>
+                        <td>Taylor's Phone</td>
+                        <td>Samsung GX</td>
+                        <td><button class="btn btn-primary Button" type="button">Edit</button><button class="btn btn-primary Button" type="button">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>000-000-0000</td>
+                        <td>Taylor's Phone</td>
+                        <td>Samsung GX</td>
+                        <td><button class="btn btn-primary Button" type="button">Edit</button><button class="btn btn-primary Button" type="button">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>000-000-0000</td>
+                        <td>Taylor's Phone</td>
+                        <td>Samsung GX</td>
+                        <td><button class="btn btn-primary Button" type="button">Edit</button><button class="btn btn-primary Button" type="button">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>000-000-0000</td>
+                        <td>Taylor's Phone</td>
+                        <td>Samsung GX</td>
+                        <td><button class="btn btn-primary Button" type="button">Edit</button><button class="btn btn-primary Button" type="button">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>000-000-0000</td>
+                        <td>Taylor's Phone</td>
+                        <td>Samsung GX</td>
+                        <td><button class="btn btn-primary Button" type="button">Edit</button><button class="btn btn-primary Button" type="button">Delete</button></td>
+                    </tr>
+                  </tbody>
+            </table>
+        </div>
+
+        <!--Devices Form-->
+        <div class="col-6">
+            <form>
+                <h3>Add a Device</h3>
+                <div class="form-group row">
+                    <label for="phoneNumber" class="col-sm-2 col-form-label">Phone Number</label>
+                    <div class="col-sm-10">
+                      <input type="phone-number" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="phoneModel" class="col-sm-2 col-form-label">Phone Model</label>
+                    <div class="col-sm-10">
+                        <select id="phoneModel" class="Select">
+                            <option>Nokia G50</option>
+                            <option>Nokia C30</option>
+                            <option>Nokia C20</option>
+                            <option>Nokia 1.5</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="nickname" class="col-sm-2 col-form-label">Nickname</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="nickname" placeholder="Nickname">
+                    </div>
+                </div>
+
+                <div class="form-group d-grid gap-2 d-md-flex justify-content-md-end">
+                    <div class="col-2">
+                        <input class="Button2" type="submit" value="Add Device"/>
+                    </div>
+                    
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
